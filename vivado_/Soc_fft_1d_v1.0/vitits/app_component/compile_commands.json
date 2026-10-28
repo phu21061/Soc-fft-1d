@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/FPGA/fft_1d_v1/vitits/app_component/build",
+  "command": "C:\\Tools\\Vivado\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -IC:/FPGA/fft_1d_v1/vitits/app_component/src -isystem C:/FPGA/fft_1d_v1/vitits/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -isystem C:/Tools/Vivado/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem C:/Tools/Vivado/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem C:/Tools/Vivado/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=C:/FPGA/fft_1d_v1/vitits/platform/export/platform/sw/standalone_ps7_cortexa9_0/Xilinx.spec -IC:/FPGA/fft_1d_v1/vitits/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\app_component.elf.dir\\main_fft_dma.c.obj -c C:\\FPGA\\fft_1d_v1\\vitits\\app_component\\src\\main_fft_dma.c",
+  "file": "C:\\FPGA\\fft_1d_v1\\vitits\\app_component\\src\\main_fft_dma.c",
+  "output": "CMakeFiles\\app_component.elf.dir\\main_fft_dma.c.obj"
+}
+]
