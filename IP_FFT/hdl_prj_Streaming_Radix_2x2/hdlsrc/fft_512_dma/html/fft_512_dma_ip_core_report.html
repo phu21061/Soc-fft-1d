@@ -1,0 +1,464 @@
+<html>
+<head>
+<title>IP Core Generation Report for fft_512_dma</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style type="text/css">
+table {
+	width: 100%;
+	border: 1px solid black;
+}
+
+div {
+	line-heigh: 90%;
+}
+
+h2.title {
+	color: #000066;
+	font-weight: bold;
+}
+
+h3.sectionHeading {
+	color: #000066;
+	font-weight: bold;
+}
+
+td.distinctCellColor {
+	background-color: #eeeeff;
+}
+
+td.summaryTableSndColOddRow {
+	background-color: #eeeeff;
+	text-align: right;
+}
+
+td.summaryTableSndColEvenRow {
+	text-align: right;
+}
+
+thead.reportTableHeader {
+	background-color: #eeeeee;
+	font-weight: bold;
+}
+
+</style>
+
+</head>
+<body>
+<h2 class="title">IP Core Generation Report for fft_512_dma</h2>
+<div>
+<h3 class="sectionHeading">Summary</h3>
+<table>
+<tbody>
+<tr>
+<td class="distinctCellColor">IP core name
+</td>
+<td class="summaryTableSndColOddRow">FFT_512_I_ip_stream_2x2
+</td>
+</tr>
+<tr>
+<td>IP core version
+</td>
+<td class="summaryTableSndColEvenRow">1.0
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">IP core folder
+</td>
+<td class="summaryTableSndColOddRow"><a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'uiopen(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\*.*\')'})" >hdl_prj_Streaming_Radix_2x2\ipcore\FFT_512_I_ip_stream_2x2_v1_0</a>
+</td>
+</tr>
+<tr>
+<td>IP core zip file name
+</td>
+<td class="summaryTableSndColEvenRow">FFT_512_I_ip_stream_2x2_v1_0.zip
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">Target platform
+</td>
+<td class="summaryTableSndColOddRow">Generic Xilinx Platform
+</td>
+</tr>
+<tr>
+<td>Target tool
+</td>
+<td class="summaryTableSndColEvenRow">Xilinx Vivado
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">Target language
+</td>
+<td class="summaryTableSndColOddRow">Verilog
+</td>
+</tr>
+<tr>
+<td>Model
+</td>
+<td class="summaryTableSndColEvenRow"><a class="code2model" id="code2model" href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'Simulink.ID.hilite(\'fft_512_dma\')'})" >fft_512_dma</a>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">Model version
+</td>
+<td class="summaryTableSndColOddRow">1.11
+</td>
+</tr>
+<tr>
+<td>HDL Coder version
+</td>
+<td class="summaryTableSndColEvenRow">25.2
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">IP core generated on
+</td>
+<td class="summaryTableSndColOddRow">20-Oct-2026 20:40:14
+</td>
+</tr>
+<tr>
+<td>IP core generated for
+</td>
+<td class="summaryTableSndColEvenRow"><a class="code2model" id="code2model" href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'Simulink.ID.hilite(\'fft_512_dma:4\')'})" >FFT_512_IP</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<h3 class="sectionHeading">Target Interface Configuration</h3>
+You chose the following target interface configuration for 
+<a class="code2model" id="code2model" href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'Simulink.ID.hilite(\'fft_512_dma\')'})" >fft_512_dma</a>
+:
+<br/><br/>
+Processor/FPGA synchronization mode: 
+<b>Free running</b>
+<br/><br/>
+Target platform interface table:
+<br/>
+<table>
+<thead class="reportTableHeader">
+<tr>
+<td>Port Name
+</td>
+<td>Port Type
+</td>
+<td>Data Type
+</td>
+<td>Target Platform Interfaces
+</td>
+<td>Interface Mapping
+</td>
+<td>Interface Options
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="code2model" id="code2model" href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'Simulink.ID.hilite(\'fft_512_dma:5\')'})" >s_axis_tdata</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Stream Slave
+</td>
+<td>Data
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'Simulink.ID.hilite(\'fft_512_dma:9\')'})" >s_axis_tvalid</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">boolean
+</td>
+<td class="distinctCellColor">AXI4-Stream Slave
+</td>
+<td class="distinctCellColor">Valid
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'Simulink.ID.hilite(\'fft_512_dma:6\')'})" >m_axis_tdata</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Stream Master
+</td>
+<td>Data
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'Simulink.ID.hilite(\'fft_512_dma:11\')'})" >m_axis_tvalid</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">boolean
+</td>
+<td class="distinctCellColor">AXI4-Stream Master
+</td>
+<td class="distinctCellColor">Valid
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'Simulink.ID.hilite(\'fft_512_dma:12\')'})" >m_axis_tlast</a>
+</td>
+<td>Outport
+</td>
+<td>boolean
+</td>
+<td>AXI4-Stream Master
+</td>
+<td>TLAST (optional)
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<h3 class="sectionHeading">Register Address Mapping</h3>
+The following AXI4-Lite bus accessible registers were generated for this IP core:
+<br/><br/>
+<table>
+<thead class="reportTableHeader">
+<tr>
+<td>Register Name
+</td>
+<td>Address Offset
+</td>
+<td>Description
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IPCore_Reset
+</td>
+<td>0x0
+</td>
+<td>write 0x1 to bit 0 to reset IP core
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">IPCore_Enable
+</td>
+<td class="distinctCellColor">0x4
+</td>
+<td class="distinctCellColor">enabled (by default) when bit 0 is 0x1
+</td>
+</tr>
+<tr>
+<td>IPCore_Timestamp
+</td>
+<td>0x8
+</td>
+<td>contains unique IP timestamp (yymmddHHMM): 2610202040
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+The AXI4 slave write register readback is OFF for the IP core.
+<br/>
+The register address mapping is also in the following C header file for you to use when programming the processor:
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\include\\FFT_512_I_ip_stream_2x2_addr.h\')'})" >include\FFT_512_I_ip_stream_2x2_addr.h</a>
+<br/>
+The IP core name is appended to the register names to avoid name conflicts.
+</div>
+<div>
+<h3 class="sectionHeading">IP Core User Guide</h3>
+<b>Theory of Operation</b>
+<br/><br/>
+This IP core is designed to be connected to an embedded processor with an 
+<b>AXI4-Lite interface. </b>
+The processor acts as master, and the IP core acts as slave. By accessing the generated registers via the AXI4-Lite interface, the processor can control the IP core, and read and write data from and to the IP core. 
+<br/><br/>
+For example, to reset the IP core, write 0x1 to the bit 0 of IPCore_Reset register. To enable or disable the IP core, write 0x1 or 0x0 to the IPCore_Enable register. To access the data ports of the MATLAB/Simulink algorithm, read or write to the associated data registers.
+<br/><br/>
+<img src="doc_arch_axi4_lite_stream.jpg"/>
+<br/><br/>
+This IP core also includes the AXI4-Stream interfaces 
+<b>AXI4-Stream Master,  and AXI4-Stream Slave. </b>
+The AXI4-Stream interfaces can be connected to the processor via a DMA controller, or they can be connected to other IP cores with AXI4-Stream interfaces. For example, the diagram above shows a design using AXI4-Stream interfaces as the data path, and using AXI4-Lite interface as the control path. 
+<br/><br/>
+The "Register Interface Read Pipeline" was specified as 0 for the IP core. The default read delay for the AXI4 register inteface is one clock cycle. 
+Depending on the selected "Register Interface Read Pipeline" value and IO connected to the AXI4 interface, register pipelining is introduced in the read adress decoder logic.
+For this model readable AXI4 slave registers are 1 and read delay for each AXI4 register is n = 1 clock cycles. The following diagram depicts the read functionality of the AXI4 registers.
+<br/><br/>
+<img src="doc_arch_axi4_Pipeline_Register.jpg"/>
+<br/><br/>
+<br/><br/>
+<b>Processor/FPGA Synchronization</b>
+<br/><br/>
+The 
+<b>Free running </b>
+mode means there is no explicit synchronization between embedded processor software execution (SW) and the IP core (HW). SW and HW runs independently. The data written from the processor to IP core takes effect immediately, and the data read from the IP core is the latest data available on the IP core output ports. 
+<br/><br/>
+<img src="free_running.jpg"/>
+<br/><br/>
+<b>Xilinx Vivado Environment Integration</b>
+<br/><br/>
+This IP Core is generated for the Xilinx Vivado environment. The following steps are an example showing how to integrate the generated IP core into Xilinx Vivado environment:
+<br/><br/>
+1. The generated IP core is a zip package file under the IP core folder. Please check the Summary section of this report for the IP zip file name and folder.
+<br/>
+2. In the Vivado project, go to Project Settings -> IP -> Repository Manager, add the folder containing the IP zip file as IP Repository.
+<br/>
+3. In Repository Manger, click the "Add IP" button to add IP zip file to the IP repository. This step adds the generated IP into the Vivado IP Catalog.
+<br/>
+4. In the Vivado project, find the generated IP core in the IP Catalog under category "HDL Coder Generated IP". In you have a Vivado block design open, you can add the generated IP into your block design.
+<br/>
+5. Connect the AXI4-Lite port of the IP core to the embedded processor's AXI master port.
+<br/>
+6. Connect the clock and reset ports of the IP core to the global clock and reset signals.
+<br/>
+7. Assign an Offset Address for the IP core in the Address Editor.
+<br/>
+8. Connect external ports and add FPGA pin assignment constraints to constraint file.
+<br/>
+9. Generate FPGA bitstream and download the bitstream to target device.
+<br/><br/>
+If you are targeting Xilinx Zynq hardwares supported by HDL Coder Support Package for AMD FPGA and SoC Devices, you can select the board you are using in the Target platform option in the Set Target > Set Target Device and Synthesis Tool task. You can then use Embedded System Integration tasks in HDL Workflow Advisor to help you integrate the generated IP core into Xilinx Vivado environment.
+</div>
+<div>
+<h3 class="sectionHeading">IP Core File List</h3>
+The IP core folder is located at:
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'uiopen(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\*.*\')'})" >hdl_prj_Streaming_Radix_2x2\ipcore\FFT_512_I_ip_stream_2x2_v1_0</a>
+<br/>
+Following files are generated under this folder:
+<br/><br/>
+<b>IP core zip file</b>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'uiopen(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\*.*\')'})" >FFT_512_I_ip_stream_2x2_v1_0.zip</a>
+<br/><br/>
+<b>IP core report</b>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'web(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\doc\\fft_512_dma_ip_core_report.html\')'})" >doc\fft_512_dma_ip_core_report.html</a>
+<br/><br/>
+<b>IP core HDL source files</b>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_SimpleDualPortRAM_generic.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_SimpleDualPortRAM_generic.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_SDFCommutator1.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_SDFCommutator1.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF1_1.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF1_1.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_1.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_1.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_SDFCommutator2.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_SDFCommutator2.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF2_2.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF2_2.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_2.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_2.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_TWDLROM_3_1.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_TWDLROM_3_1.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_Complex4Multiply.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_Complex4Multiply.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_SDFCommutator3.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_SDFCommutator3.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF1_3.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF1_3.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_3.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_3.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_SDFCommutator4.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_SDFCommutator4.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF2_4.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF2_4.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_4.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_4.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_TWDLROM_5_1.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_TWDLROM_5_1.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_Complex4Multiply_block.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_Complex4Multiply_block.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_SDFCommutator5.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_SDFCommutator5.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF1_5.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF1_5.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_5.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_5.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_SDFCommutator6.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_SDFCommutator6.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF2_6.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF2_6.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_6.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_6.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_TWDLROM_7_1.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_TWDLROM_7_1.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_Complex4Multiply_block1.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_Complex4Multiply_block1.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_SDFCommutator7.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_SDFCommutator7.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF1_7.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF1_7.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_7.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_7.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_SDFCommutator8.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_SDFCommutator8.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF2_8.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF2_8.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_8.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_8.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_TWDLROM_9_1.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_TWDLROM_9_1.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_Complex4Multiply_block2.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_Complex4Multiply_block2.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_SDFCommutator9.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_SDFCommutator9.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF1_9.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_SDF1_9.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_1_block.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX22FFT_CTRL1_1_block.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_RADIX2FFT_bitNatural.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_RADIX2FFT_bitNatural.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_FFT.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_FFT.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_src_FFT_512_IP.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_src_FFT_512_IP.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_reset_sync.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_reset_sync.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_dut.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_dut.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_SimpleDualPortRAM_generic.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_SimpleDualPortRAM_generic.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_fifo_data_OUT.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_fifo_data_OUT.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_SimpleDualPortRAM_singlebit.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_SimpleDualPortRAM_singlebit.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_fifo_TLAST_OUT.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_fifo_TLAST_OUT.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_axi4_stream_master.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_axi4_stream_master.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_fifo_data.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_fifo_data.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_axi4_stream_slave.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_axi4_stream_slave.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_addr_decoder.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_addr_decoder.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_axi_lite_module.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_axi_lite_module.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2_axi_lite.v\')'})" >hdl\FFT_512_I_ip_stream_2x2_axi_lite.v</a>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\hdl\\FFT_512_I_ip_stream_2x2.v\')'})" >hdl\FFT_512_I_ip_stream_2x2.v</a>
+<br/>
+<br/>
+<b>IP core C header file</b>
+<br/>
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'edit(\'hdl_prj_Streaming_Radix_2x2\\ipcore\\FFT_512_I_ip_stream_2x2_v1_0\\include\\FFT_512_I_ip_stream_2x2_addr.h\')'})" >include\FFT_512_I_ip_stream_2x2_addr.h</a>
+</div>
+<script>function postParentWindowMessage(message) {window.parent.postMessage(message, "*");}</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+# Vivado generated files
+**/*.cache/
+**/*.gen/
+**/*.runs/
+**/*.hw/
+**/*.ip_user_files/
+**/*.sim/
+**/.Xil/
+*.jou
+*.log
+*.logfile
+*.rpx
+*.dcp
+
+# Vitis generated platform and application output
+vivado_/Soc_fft_1d_v1.0/vitits/platform/export/
+vivado_/Soc_fft_1d_v1.0/vitits/platform/logs/
+vivado_/Soc_fft_1d_v1.0/vitits/platform/hw/
+vivado_/Soc_fft_1d_v1.0/vitits/platform/ps7_cortexa9_0/
+vivado_/Soc_fft_1d_v1.0/vitits/platform/zynq_fsbl/
+vivado_/Soc_fft_1d_v1.0/vitits/app_component/build/
+vivado_/Soc_fft_1d_v1.0/vitits/app_component/_ide/bitstream/
+
+# Simulink generated cache
+**/slprj/
+*.slxc
