@@ -1,0 +1,4 @@
+C:/FPGA/fft_1d_v1/vitits/platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+C:/FPGA/fft_1d_v1/vitits/platform/zynq_fsbl/build/CMakeFiles/print_build_info.dir
+C:/FPGA/fft_1d_v1/vitits/platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+C:/FPGA/fft_1d_v1/vitits/platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

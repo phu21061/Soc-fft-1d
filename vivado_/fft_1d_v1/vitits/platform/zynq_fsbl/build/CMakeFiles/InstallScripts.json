@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/FPGA/fft_1d_v1/vitits/platform/zynq_fsbl/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

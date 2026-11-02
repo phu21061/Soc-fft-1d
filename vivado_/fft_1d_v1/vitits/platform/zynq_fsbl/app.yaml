@@ -1,0 +1,4 @@
+domain_path: C:/FPGA/fft_1d_v1/vitits/platform/zynq_fsbl/zynq_fsbl_bsp
+app_src_dir: C:\Tools\Vivado\2026.1\Vitis\data\embeddedsw\lib\sw_apps\zynq_fsbl
+template: zynq_fsbl
+lang: c

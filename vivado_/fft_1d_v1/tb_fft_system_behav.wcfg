@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_fft_system_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_datamover_pkg" />
+            <top_module name="axi_dma_pkg" />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="design_1_axi_vip_0_0_pkg" />
+            <top_module name="design_1_axi_vip_0_1_pkg" />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="tb_fft_system" />
+            <top_module name="vcomponents" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="253,716.089 ns"></ZoomStartTime>
+      <ZoomEndTime time="253,800.190 ns"></ZoomEndTime>
+      <Cursor1Time time="97,885.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="199"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/tb_fft_system/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/aresetn" type="logic">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/monitor_clear" type="logic">
+      <obj_property name="ElementShortName">monitor_clear</obj_property>
+      <obj_property name="ObjectShortName">monitor_clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/stalled_previous" type="logic">
+      <obj_property name="ElementShortName">stalled_previous</obj_property>
+      <obj_property name="ObjectShortName">stalled_previous</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/stalled_data" type="array">
+      <obj_property name="ElementShortName">stalled_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stalled_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/stalled_last" type="logic">
+      <obj_property name="ElementShortName">stalled_last</obj_property>
+      <obj_property name="ObjectShortName">stalled_last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/out_valid" type="logic">
+      <obj_property name="ElementShortName">out_valid</obj_property>
+      <obj_property name="ObjectShortName">out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/out_ready" type="logic">
+      <obj_property name="ElementShortName">out_ready</obj_property>
+      <obj_property name="ObjectShortName">out_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/out_data" type="array">
+      <obj_property name="ElementShortName">out_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/out_last" type="logic">
+      <obj_property name="ElementShortName">out_last</obj_property>
+      <obj_property name="ObjectShortName">out_last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/in_valid" type="logic">
+      <obj_property name="ElementShortName">in_valid</obj_property>
+      <obj_property name="ObjectShortName">in_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/in_ready" type="logic">
+      <obj_property name="ElementShortName">in_ready</obj_property>
+      <obj_property name="ObjectShortName">in_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/FFT_BASE" type="array">
+      <obj_property name="ElementShortName">FFT_BASE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">FFT_BASE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/FFT_ENABLE" type="array">
+      <obj_property name="ElementShortName">FFT_ENABLE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">FFT_ENABLE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/DMA_BASE" type="array">
+      <obj_property name="ElementShortName">DMA_BASE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">DMA_BASE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/MM2S_DMASR" type="array">
+      <obj_property name="ElementShortName">MM2S_DMASR[63:0]</obj_property>
+      <obj_property name="ObjectShortName">MM2S_DMASR[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/S2MM_DMASR" type="array">
+      <obj_property name="ElementShortName">S2MM_DMASR[63:0]</obj_property>
+      <obj_property name="ObjectShortName">S2MM_DMASR[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/MM2S_DMACR" type="array">
+      <obj_property name="ElementShortName">MM2S_DMACR[63:0]</obj_property>
+      <obj_property name="ObjectShortName">MM2S_DMACR[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/S2MM_DMACR" type="array">
+      <obj_property name="ElementShortName">S2MM_DMACR[63:0]</obj_property>
+      <obj_property name="ObjectShortName">S2MM_DMACR[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/INPUT_ADDR" type="array">
+      <obj_property name="ElementShortName">INPUT_ADDR[63:0]</obj_property>
+      <obj_property name="ObjectShortName">INPUT_ADDR[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/OUTPUT_ADDR" type="array">
+      <obj_property name="ElementShortName">OUTPUT_ADDR[63:0]</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_ADDR[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/FRAME_BYTES" type="array">
+      <obj_property name="ElementShortName">FRAME_BYTES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FRAME_BYTES[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/MM2S_SA" type="array">
+      <obj_property name="ElementShortName">MM2S_SA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">MM2S_SA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/MM2S_LENGTH" type="array">
+      <obj_property name="ElementShortName">MM2S_LENGTH[63:0]</obj_property>
+      <obj_property name="ObjectShortName">MM2S_LENGTH[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/S2MM_DA" type="array">
+      <obj_property name="ElementShortName">S2MM_DA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">S2MM_DA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fft_system/S2MM_LENGTH" type="array">
+      <obj_property name="ElementShortName">S2MM_LENGTH[63:0]</obj_property>
+      <obj_property name="ObjectShortName">S2MM_LENGTH[63:0]</obj_property>
+   </wvobject>
+</wave_config>
